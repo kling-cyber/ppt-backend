@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 cd C:\Users\SFO_J\OneDrive\Attachments\Desktop\website\backend 
 node server.js
 
 
+=======
+cd C:\Users\SFO_J\OneDrive\Attachments\Desktop\website\backend 
+node server.js
+
+
+>>>>>>> 1c85ea23d9d865ec4bcf7c9d85b8715aa9c8b7a4
 google app password : lahd rpxs wrim tbja
