@@ -1,0 +1,5 @@
+cd C:\Users\SFO_J\OneDrive\Attachments\Desktop\website\backend 
+node server.js
+
+
+google app password : lahd rpxs wrim tbja
