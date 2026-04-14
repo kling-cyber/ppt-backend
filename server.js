@@ -14,7 +14,6 @@ const app = express();
 /* ================= MIDDLEWARE ================= */
 app.use(express.json());
 app.use(cors());
-app.use(express.static(path.join(__dirname, "../")));
 
 /* ================= DATABASE ================= */
 mongoose.connect(process.env.MONGO_URI)
@@ -218,7 +217,7 @@ app.get("/secure-pdf/:file", async (req,res)=>{
 
 /* ================= ROOT ================= */
 app.get("/", (req,res)=>{
-  res.sendFile(path.join(__dirname,"../index.html"));
+  res.send("Backend running 🚀");
 });
 
 /* ================= START ================= */
